@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-29 08:51:34.156980",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "my_sample_detail_items",
+  "my_sample_batch"
+ ],
+ "fields": [
+  {
+   "fieldname": "my_sample_detail_items",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "My Sample Detail Items",
+   "options": "My Sample Detail Item"
+  },
+  {
+   "fieldname": "my_sample_batch",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "My Sample Batch",
+   "options": "My Sample Batch"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-29 11:14:47.887898",
+ "modified_by": "Administrator",
+ "module": "My Sample Project",
+ "name": "My Sample Doc Lines",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
